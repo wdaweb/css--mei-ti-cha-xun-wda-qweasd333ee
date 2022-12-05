@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WDA 媒體查詢</title>
+  <style>
+    body {
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      transition: 1s;
+    }
+
+    .card {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 20px 0;
+    }
+
+    img {
+      width: 50%;
+      align-self: center;
+    }
+
+    .align-self-center {
+      align-self: center;
+    }
+
+    hr {
+      margin: 30px 0;
+    }
+
+    h1,
+    h2,
+    p {
+      margin: 20px;
+    }
+
+    .main_title {
+      font-weight: bolder;
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .sec_title {
+      font-weight: bold;
+      font-size: 26px;
+      margin: 5px 15px;
+    }
+
+    .text {
+      font-weight: 500;
+      font-size: 18px;
+      margin: 0 15px;
+    }
+
+    .line {
+      display: none;
+    }
+
+    @media (min-width: 576px) {
+      body {
+        height: 100vh;
+        position: relative;
+      }
+
+      .card {
+        width: 20%;
+        height: 20%;
+        display: block;
+        text-align: center;
+      }
+
+      .card:nth-child(2) {
+        position: absolute;
+        top: 43%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .card:nth-child(2) img {
+        width: 70%;
+        margin-bottom: 20px;
+      }
+
+      .card:nth-child(4) {
+        position: absolute;
+        top: 20%;
+        left: 7%;
+        transform: translate(-50%, -50%);
+      }
+
+      .card:nth-child(6) {
+        position: absolute;
+        top: 15%;
+        left: 28%;
+        transform: translate(-50%, -50%);
+      }
+
+      .card:nth-child(8) {
+        position: absolute;
+        top: 60%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+      }
+
+      .card:nth-child(10) {
+        position: absolute;
+        top: 75%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+      }
+
+      .card:nth-child(12) {
+        position: absolute;
+        top: 15%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+      }
+
+      .card:nth-child(14) {
+        position: absolute;
+        top: 40%;
+        left: 90%;
+        transform: translate(-50%, -50%);
+      }
+
+      .card:nth-child(16) {
+        position: absolute;
+        top: 75%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+      }
+
+      .card .text {
+        display: none;
+      }
+
+      .card:nth-child(2) .text {
+        display: block;
+      }
+
+      hr {
+        display: none;
+      }
+
+      .line {
+        display: block;
+        border: 1px solid rgba(128, 128, 128, 0.5);
+        position: absolute;
+      }
+
+      .line:nth-child(17) {
+        width: 30%;
+        top: 41%;
+        left: 10%;
+        transform: rotate(5deg);
+      }
+
+      .line:nth-child(18) {
+        width: 10%;
+        top: 30%;
+        left: 33%;
+        transform: rotate(35deg);
+      }
+
+      .line:nth-child(19) {
+        width: 23%;
+        top: 55%;
+        left: 17%;
+        transform: rotate(-8deg);
+      }
+
+      .line:nth-child(20) {
+        width: 11%;
+        top: 63%;
+        left: 31%;
+        transform: rotate(-30deg);
+      }
+
+      .line:nth-child(21) {
+        width: 10%;
+        top: 30%;
+        left: 57%;
+        transform: rotate(-25deg);
+      }
+
+      .line:nth-child(22) {
+        width: 20%;
+        top: 45%;
+        left: 60%;
+        transform: rotate(-5deg);
+      }
+
+      .line:nth-child(23) {
+        width: 15%;
+        top: 64%;
+        left: 58%;
+        transform: rotate(30deg);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+</body>
+<div class="card">
+  <img src="./images/wda.png" alt="泰山職訓局">
+  <div class="align-self-center main_title">泰山職訓局</div>
+  <div class="align-self-center sec_title">從零開始的網頁設計課程</div>
+  <div class="align-self-center text">
+    轉職網頁開發人員&nbsp;&nbsp;掌握就業必備職能<br>
+    由淺入深學習技術&nbsp;&nbsp;強化職場的競爭力
+  </div>
+</div>
+
+<hr>
+
+<div class="card">
+  <img src="./images/html.png" alt="HTML">
+  <div class="sec_title">Html</div>
+  <div class="text">
+    超文本標記語⾔（英語：HyperText Markup Language，簡稱：HTML）是⼀種⽤於建立網⾴的標準標記語⾔。 HTML 是⼀種基礎技術，常與
+    CSS、JavaScript⼀起被眾多網站⽤於設計賞⼼悅⽬的網⾴、網⾴應⽤程式以及⾏ 動應⽤程式的使⽤者介⾯。網⾴瀏覽器可以讀取 HTML 檔案，並將其彩現成視覺化網⾴。HTML 描述了⼀個網站
+    的結構語意隨著線索的呈現，使之成為⼀種標記語⾔⽽非程式語⾔。
+  </div>
+</div>
+
+<hr>
+
+<div class="card">
+  <img src="./images/css.png" alt="CSS3">
+  <div class="sec_title">CSS3</div>
+  <div class="text">
+    層疊樣式表（英語：Cascading Style Sheets，簡寫CSS），⼜稱串樣式列表、級聯樣式表、串接樣式表、階層式樣 式表，⼀種⽤來為結構化文件（如 HTML 文件或 XML
+    應⽤）添加樣式（字型、間距和顏⾊等）的電腦語⾔，由W3C 定義和維護。⽬前最新版本是 CSS2.1，為 W3C 的推薦標準。CSS3 現在已被⼤部分現代瀏覽器⽀援，⽽下 ⼀版的 CSS4 仍在開發中。
+  </div>
+</div>
+
+<hr>
+
+<div class="card">
+  <img src="./images/js.png" alt="JavaScript">
+  <div class="sec_title">JavaScript</div>
+  <div class="text">
+    JavaScript，通常縮寫為 JS，是⼀種進階直譯語⾔的程式語⾔。JavaScript 是⼀⾨基於原型、函式先⾏的語⾔，是 ⼀⾨多範式的語⾔，它⽀援物件導向編程，指令式程式設計，以及函式語⾔程式設計。
+  </div>
+</div>
+
+<hr>
+
+<div class="card">
+  <img src="./images/jq.webp" alt="jQuery">
+  <div class="sec_title">jQuery</div>
+  <div class="text">
+    jQuery 是⼀套跨瀏覽器的 JavaScript 函式庫，簡化 HTML 與 JavaScript 之間的操作。全球前 10,000 個存取最⾼的 網站中，有 65% 使⽤了jQuery，是⽬前最受歡迎的
+    JavaScript函式庫。
+  </div>
+</div>
+
+<hr>
+
+<div class="card">
+  <img src="./images/bs.png" alt="Bootstrap" style="padding-top: 20px;">
+  <div class="sec_title">Bootstrap</div>
+  <div class="text">
+    Bootstrap 是⼀組⽤於網站和網路應⽤程式開發的開源前端（所謂「前端」，指的是展現給終端使⽤者的介⾯。與 之對應的「後端」是在伺服器上⾯執⾏的程式碼）框架，包括 HTML、CSS及JavaScript
+    的框架，提供字體排印、表單、按鈕、導航及其他各種元件及 Javascript 擴充套件，旨在使動態網⾴和 Web 應⽤的開發更加容易。
+  </div>
+</div>
+
+<hr>
+
+<div class="card">
+  <img src="./images/sass.png" alt="Sass" style="padding-top: 40px;">
+  <div class="sec_title">Sass</div>
+  <div class="text">
+    Sass 是 CSS Preprocessor（CSS 預處理器）的一種，讓 CSS 設計過程能夠更加便利、有結構、更簡潔、更彈性，完成 SASS / SCSS 檔後需編譯為 CSS 檔。
+  </div>
+</div>
+
+<hr>
+
+<div class="card">
+  <img src="./images/vue.png" alt="Vue" style="padding-top: 40px;">
+  <div class="sec_title">Vue.js</div>
+  <div class="text">
+    Vue (音同View) 是一套以視圖層為基礎發展的 JavaScript 漸進式框架。與其他前端框架/函式庫不同的是，Vue.js 的目標是透過簡單的 API 提供開發者實作資料綁定與操作網頁上的元件，同時也因為 Vue.js
+    的核心把焦點關注在狀態與畫面的同步層級上，遂能夠輕易地與其他 JavaScript 函式庫、前端開發工具鍊等整合使用，成為一套完整的前端開發方案。
+  </div>
+
+</div>
+<div class="line"></div>
+<div class="line"></div>
+<div class="line"></div>
+<div class="line"></div>
+<div class="line"></div>
+<div class="line"></div>
+<div class="line"></div>
+
+</html>
